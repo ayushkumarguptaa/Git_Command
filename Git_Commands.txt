@@ -1,0 +1,54 @@
+STEP 1:
+--> Install Git in your pc firstly.
+
+STEP 2:
+--> Configure your System Once .
+
+cmd : Git Config user.name "your name"
+cmd : Git config user.email "your github account email"
+
+STEP 3:
+--> Clone is used to get your repository which you have created.
+
+cmd : Git clone <Paste created repository HTTPs Link here.>
+
+STEP 4:
+--> Move your all files as well as directories of project in that fetched repo.
+--> change current directory to that repo by using.
+
+cmd : cd <repo name>
+
+STEP 5:
+--> Add all files as well as directories in other ways to staged.
+
+cmd : git add .
+--> To check git status .
+
+cmd : git status
+
+STEP 6:
+--> Now about to commit the staged disrectories.
+
+cmd : git commit -m "<commit changes here>"
+example : git commit -m "directories updated"
+
+STEP 7:
+--> Add Git remotely wit Original.
+
+cmd : git remote add origin <"Paste the Github repo HTTPs link here">
+
+STEP 8:
+--> Github has changed their default branches to *Main.
+--> Check your current Branch 
+
+cmd : git branch
+
+--> if your brach is *Monster then make changes in it.
+
+cmd : git brach -M Main
+
+STEP 9:
+--> Now, it's final step about to push complete directory with files contains.
+
+cmd : git git push origin main
+
