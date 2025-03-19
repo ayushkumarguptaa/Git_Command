@@ -4,8 +4,8 @@ STEP 1:
 STEP 2:
 --> Configure your System Once .
 
-cmd : Git Config user.name "your name"
-cmd : Git config user.email "your github account email"
+cmd : git Config user.name "your name"
+cmd : git config user.email "your github account email"
 
 STEP 3:
 --> Clone is used to get your repository which you have created.
@@ -50,5 +50,5 @@ cmd : git brach -M Main
 STEP 9:
 --> Now, it's final step about to push complete directory with files contains.
 
-cmd : git git push origin main
+cmd : git push origin main
 
