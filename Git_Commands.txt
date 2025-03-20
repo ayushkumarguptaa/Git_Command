@@ -45,7 +45,7 @@ cmd : git branch
 
 --> if your brach is *Monster then make changes in it.
 
-cmd : git brach -M Main
+cmd : git branch -M Main
 
 STEP 9:
 --> Now, it's final step about to push complete directory with files contains.
